@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "jackpotmanager",
+  "version": "${version}",
+  "name": "Jackpot & Gambling Manager",
+  "description": "Client-side jackpot scoreboard HUD, payment notifications, blackjack/game payout calculator and payment history. Never sends money or commands.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.jackpot.JackpotMod"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
